@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build --prefix client",
+  "outputDirectory": "client/dist",
+  "devCommand": "npm run dev --prefix client",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "env": {
+    "VITE_API_URL": "@vite_api_url"
+  }
+}
